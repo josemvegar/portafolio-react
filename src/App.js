@@ -3,7 +3,7 @@ import { MisRutas } from './router/MisRutas';
 
 function App() {
   return (
-    <div className="App">
+    <div className="layout">
         <MisRutas />
     </div>
   );
