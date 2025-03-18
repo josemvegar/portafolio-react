@@ -2,8 +2,12 @@ import React from 'react'
 import { Formulario } from './components/formulario'
 import { MasUseRef } from './components/MasUseRef'
 import { Gestion } from './components/Gestion'
+import { Tareas } from './components/Tareas'
 
 export const Pruebas = () => {
+
+
+
   return (
     <div>
 
@@ -16,6 +20,11 @@ export const Pruebas = () => {
         <hr></hr>
         <h1>HOOK MEMO</h1>
         <Gestion></Gestion>
+
+        <hr></hr>
+
+        <h1>Más HOOK MEMO (useMemo)</h1>
+        <Tareas></Tareas>
     </div>
   )
 }
