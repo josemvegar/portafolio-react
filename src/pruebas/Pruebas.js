@@ -3,6 +3,7 @@ import { Formulario } from './components/formulario'
 import { MasUseRef } from './components/MasUseRef'
 import { Gestion } from './components/Gestion'
 import { Tareas } from './components/Tareas'
+import { EjemploUseLayoutEffect } from './components/EjemploUseLayoutEffect'
 
 export const Pruebas = () => {
 
@@ -25,6 +26,10 @@ export const Pruebas = () => {
 
         <h1>Más HOOK MEMO (useMemo)</h1>
         <Tareas></Tareas>
+
+        <hr/><hr/>
+
+        <EjemploUseLayoutEffect></EjemploUseLayoutEffect>
     </div>
   )
 }

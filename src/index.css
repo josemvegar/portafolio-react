@@ -209,3 +209,13 @@ input[type="submit"]:hover, button:hover{
 .verde{
   background-color: green;
 }
+
+#caja{
+  width: 200px;
+  height: 200px;
+  background-color: #fa4529;
+  position: absolute;
+}
+.relativo{
+  position: relative;
+}
