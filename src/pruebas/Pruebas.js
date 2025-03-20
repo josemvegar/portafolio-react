@@ -4,6 +4,7 @@ import { MasUseRef } from './components/MasUseRef'
 import { Gestion } from './components/Gestion'
 import { Tareas } from './components/Tareas'
 import { EjemploUseLayoutEffect } from './components/EjemploUseLayoutEffect'
+import { MisJuegos } from './components/MisJuegos'
 
 export const Pruebas = () => {
 
@@ -29,7 +30,12 @@ export const Pruebas = () => {
 
         <hr/><hr/>
 
+        <h1>Hook useLayoutEffect</h1>
         <EjemploUseLayoutEffect></EjemploUseLayoutEffect>
+
+        <hr/><hr/>
+        <h1>Hook Reducer</h1>
+        <MisJuegos></MisJuegos>
     </div>
   )
 }
